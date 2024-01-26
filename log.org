@@ -1,0 +1,10 @@
+#+begin_src js
+<mesh>
+    <circleGeometry args={[0.15, 32]}/>
+    <VideoMaterial url="video.mp4"/>
+</mesh>
+function VideoMaterial({ url }) {
+  const texture = useVideoTexture(url)
+  return <meshBasicMaterial map={texture} toneMapped={false} />
+}
+#+end_src
