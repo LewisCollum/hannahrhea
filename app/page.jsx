@@ -7,11 +7,11 @@ export default function Home() {
     return (
         <body>
             <div class="flex text-center justify-center items-center h-full mx-10">
-                <div class="grid grid-rows-1 gap-8 justify-items-center">
+                <div class="grid grid-rows-1 gap-6 justify-items-center">
                     <div class="font-cursive text-large">twenty</div>
                     <div class="font-cursive text-medium">one</div>
                     <Image
-                        width={300}
+                        width={150}
                         alt="NextUI hero Image"
                         src="/bow.png"
                     />

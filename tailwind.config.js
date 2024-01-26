@@ -55,7 +55,7 @@ module.exports = {
             tiny: "1rem", // text-tiny
             small: "4rem", // text-small
             medium: "6rem", // text-medium
-            large: "10rem", // text-large
+            large: "9rem", // text-large
         },
       },
       themes: {
